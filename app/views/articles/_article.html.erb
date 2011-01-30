@@ -1,0 +1,11 @@
+<%= div_for article do %>
+  <h3>
+    <%= link_to article.title, article %>
+  </h3>
+  <%= raw textilize(article.body) %>
+<span class='actions'>
+      <%= link_to "Edit", edit_article_path(article) %>
+      <%= link_to "Delete", article, :confirm => "Are you sure?", :method => :delete %>
+      <%= link_to 'Back', articles_path %>
+    </span>
+<% end %>

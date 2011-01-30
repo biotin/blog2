@@ -1,0 +1,100 @@
+/* 
+O this f*cking CSS
+*/
+
+/* General CSS */
+
+body {
+	font-family: Lucida Grande, Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 2em;
+	color: #000000;
+	background-color: #FFFFFF;
+	margin-top: 1em;
+	margin-left: 4em;
+	margin-bottom: 10em;
+}
+
+img {
+margin-bottom: 2em;
+}
+
+h1 {
+font-family: Lucida Grande, Arial, Verdana, Helvetica, sans-serif;
+font-size:16px;
+line-height: 1em;
+font-weight: 900;
+}
+
+#header {
+height: 60px;
+width: 730px;
+}
+
+
+#header h1 {
+padding-top: 10px;
+font-size: 30px;
+font-weight: normal;
+color:#9932CC;
+}
+
+#container {
+background: url(dot-top.gif) top repeat-x; 
+width: 100%;
+margin-bottom: 5em;
+}
+
+h2 {
+color: #CCC;
+margin-bottom:2em;
+}
+
+h5 {
+color: #CCC;
+margin-bottom:2em;
+}
+
+.text {
+width: 80%;
+padding-top: 20px;
+background: url(dot.gif) right top repeat-y; 
+margin-right: 20px;
+}
+
+#infinitum {
+float: right;
+width: 15%;
+padding-top: 20px;
+background: url(dot.gif) right top repeat-y; 
+padding-right: 20px;
+}
+
+a {
+color: #9932CC;
+}
+
+a:hover {
+color: #999;
+}
+
+li {
+margin-bottom: 2em;
+}
+
+form {
+height: 15px;
+}
+
+input {
+border: 1px solid #CCC;
+background-color:#FFFFFF;
+font-size: 11px;
+padding: 1.5px;
+color: #666;
+}
+
+input:focus, select:focus, textarea:focus {
+	color: #484848 ;
+	background: #EFFAE6;
+}
