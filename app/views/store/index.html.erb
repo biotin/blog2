@@ -1,0 +1,10 @@
+<% @articles.each do |article| %>
+  <h1><%= link_to article.title,:action => "show",:id => article %></h1>
+  <h5><%= article.published_at %></h5>
+  <p><%= raw textilize(article.body) %></p>
+   <p></p>
+   <%= link_to "Show", :action => "show",:id => article %><br />
+  <% end %>
+<br />
+
+<%= will_paginate @articles%>

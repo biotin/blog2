@@ -11,21 +11,15 @@
 
 <div id="infinitum">
     <p><strong>Navigation<br />
-    </strong><a href="http://myscript.biz">Home</a></p>
-    <p><a href="#">Colophon</a></p>
-    <p><a href="#">Photography</a></p>
-    <p><a href="#">Portfolio</a></p>
-    <p><a href="#">Contact</a><strong><br />
+    </strong><%= link_to "Home", :action => "index" %></p>
+    <p><%= link_to "Photography", :action => "index" %></p>
+    <p><%= link_to "Portfolio", :action => "index" %></p>
+    <p><%= link_to "Contact", :action => "index" %></ p>
       <br />
-    <span>  Search</strong><br />
-    </p>
-    <form  name="form1" id="form1" method="post" action="#">
-      <input type="text" name="textfield"  />
-    </form>
     <p>&nbsp;</p>
     <p><strong>Monthly Archives</strong></p>
-    <p><a href="#">June 2005 <br />
-      May 2005</a></p>
+    <p><a href="#">June 2005</a><p>
+    <p><a href="#">May 2005</a></p>
     <p><a href="#">April 2005</a></p>
     <p><a href="#">March 2005</a></p>
     <p> <strong><br />

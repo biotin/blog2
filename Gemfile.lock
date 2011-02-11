@@ -72,6 +72,6 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
-  rails (= 3.0.3)
+  rails (~> 3.0.3)
   sqlite3-ruby
   will_paginate (~> 3.0.pre2)

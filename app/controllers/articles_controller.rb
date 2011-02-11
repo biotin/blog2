@@ -1,6 +1,9 @@
 class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.xml
+  
+  before_filter :authenticate
+  
   def index
     @articles = Article.paginate(:page => params[:page],:per_page => 5, :order => "published_at DESC")
     respond_to do |format|
@@ -78,5 +81,13 @@ class ArticlesController < ApplicationController
       format.html { redirect_to(articles_url) }
       format.xml  { head :ok }
     end
+  end
+  
+  private
+  
+  def authenticate
+  	authenticate_or_request_with_http_basic('Administration') do|username, password|
+  	username == 'adminka' && password = 'adminka'
+  	end
   end
 end
