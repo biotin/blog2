@@ -5,7 +5,7 @@ deleted tmp files
 (deploying)
 --------------------
 version = 0.5
-*adding admin pages  (.com/articles/ - login "admin", password - "admin")
+*adding admin pages  (.com/articles/ - login "adminka", password - "adminka")
 *default routing - store
 *adding authentication (Only admin can delete comments - login "comment", password "comment")
 *some changes in route.rb
