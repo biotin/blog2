@@ -3,10 +3,4 @@ Simple Rails Blog
 version = 0.10001
 deleted tmp files
 (deploying)
---------------------
-version = 0.5
-*adding admin pages
-*default routing - store
-*adding authentication
-*some changes in route.rb
---------------------
+http://myscript.heroku.com/
