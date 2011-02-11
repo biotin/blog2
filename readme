@@ -5,9 +5,9 @@ deleted tmp files
 (deploying)
 --------------------
 version = 0.5
-*adding admin pages
+*adding admin pages  (.com/articles/ - login "admin", password - "admin")
 *default routing - store
-*adding authentication
+*adding authentication (Only admin can delete comments - login "comment", password "comment")
 *some changes in route.rb
 --------------------
 http://myscript.heroku.com/
