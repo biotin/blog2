@@ -10,4 +10,5 @@ version = 0.5
 *adding authentication (Only admin can delete comments - login "comment", password "comment")
 *some changes in route.rb
 --------------------
-http://myscript.heroku.com/
+http://high-beach-231.heroku.com/
+(old version  -  http://myscript.heroku.com/)
